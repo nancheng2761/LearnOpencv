@@ -3,10 +3,10 @@ import numpy as np
 
 img =  cv2.imread('./image/1111.jpg')
 
-#浅拷贝
+# 浅拷贝
 img2 = img
 
-#深拷贝
+# 深拷贝
 img3 = img.copy()
 
 img[10:100, 10:100] = [0, 0,  255]

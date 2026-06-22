@@ -14,7 +14,7 @@ import numpy as np
 curshape = 0
 startpos = (0, 0)
 
-#创建鼠标回调函数
+# 创建鼠标回调函数
 def mouse_Callback(event, x, y, flags, useedata):
     global curshape, startpos
 
@@ -36,13 +36,13 @@ def mouse_Callback(event, x, y, flags, useedata):
 
 
 
-#创建窗口
+# 创建窗口
 cv2.namedWindow('drawshape', cv2.WINDOW_NORMAL)
 
-#设置鼠标回调
+# 设置鼠标回调
 cv2.setMouseCallback('drawshape',mouse_Callback)
 
-#显示窗口和背景
+# 显示窗口和背景
 img = np.zeros((480, 640, 3), np.uint8)
 
 while True:

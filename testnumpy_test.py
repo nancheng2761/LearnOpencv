@@ -5,12 +5,12 @@ cv2.namedWindow("test",cv2.WINDOW_NORMAL)
 
 img = np.zeros((480,640,3),dtype=np.uint8)
 
-#从矩阵中访问某元素的值
+# 从矩阵中访问某元素的值
 count = 0
 while count < 200:
-    #BGR
-    #img[count,100,1] = 255
-    #img[count,100] = [0,0,255] #红色
+    # BGR
+    # img[count,100,1] = 255
+    # img[count,100] = [0,0,255] #红色
     img[count,100] = [255,255,255] #白色
     count += 1
 

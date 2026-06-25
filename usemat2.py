@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('./image/1111.jpg')
+img = cv2.imread('./image/mmc.jpg')
 
 # shape属性中包含了三个信息
 # 高度 长度 通道数

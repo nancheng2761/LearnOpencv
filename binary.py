@@ -8,7 +8,7 @@ img1  = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # 图像全局二值化
 # img 最好是灰度图
-# thresh 阈值
+# thresh 阈值     ret 这个返回值是执行的状态
 # 超过阈值，替换成maxVal
 ret, dst = cv2.threshold(img1, 100, 255, cv2.THRESH_BINARY)
 ret, dst2 = cv2.threshold(img1, 100, 255, cv2.THRESH_BINARY_INV)

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img =  cv2.imread('./image/1111.jpg')
+img =  cv2.imread('./image/mmc.jpg')
 
 # 浅拷贝
 img2 = img

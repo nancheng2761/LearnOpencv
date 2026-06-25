@@ -13,3 +13,4 @@ dst = cv2.Canny(img, 150, 220)
 cv2.imshow('img', img)
 cv2.imshow('dst', dst)
 cv2.waitKey(0)
+
